@@ -1,5 +1,3 @@
-package dijkstra;
-
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 import java.io.BufferedReader;
@@ -10,7 +8,8 @@ import java.util.*;
 public class Dijkstra {
 
     /***
-     * Constructe a new class for storing the edge length variable.
+     * Constructe Class for Graph.
+     * With Object node and edge.
      */
     private static class Node {
         private int key;
@@ -84,6 +83,7 @@ public class Dijkstra {
 
     /***
      * Constructor with external file;
+     * Utilize Adjency List for graph representation.
      * @param filename
      * @throws IOException
      */
@@ -196,7 +196,7 @@ public class Dijkstra {
     }
 
     public static void main(String[] args) throws IOException {
-        Dijkstra graph = new Dijkstra("/Users/MyStudy/DataStructure/proj1/DS1/src/dijkstra/dijkstra-test.txt");
+        Dijkstra graph = new Dijkstra("dijkstra-test.txt");
         Node start = new Node(1);
         Node goal = new Node(4);
         System.out.println(graph.dijkstra(start, goal));
