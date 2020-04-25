@@ -72,7 +72,7 @@ public class HeapMedian {
 
     public static void main(String[] args) {
         HeapMedian heapMedian = new HeapMedian(10002);
-        System.out.println(heapMedian.result("/Users/MyStudy/DataStructure/proj1/DS1/src/heap/median.txt"));
+        System.out.println(heapMedian.result("./median.txt"));
 
     }
 
