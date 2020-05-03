@@ -55,7 +55,7 @@ public class find2SumNaive {
     }
 
     public static void main(String[] args) {
-        find2SumNaive f2s = new find2SumNaive("/Users/MyStudy/DataStructure/proj1/DS1/src/hashTable/2sum.txt");
+        find2SumNaive f2s = new find2SumNaive("./2sum.txt");
         System.out.println(f2s.naive2sum());
     }
 
