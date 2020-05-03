@@ -109,7 +109,7 @@ public class ScheduleJobs {
     }
 
     public static void main(String[] args) throws IOException {
-        ScheduleJobs scheJobs = new ScheduleJobs("/Users/MyStudy/DataStructure/proj1/DS1/src/greedy/scheduling.txt");
+        ScheduleJobs scheJobs = new ScheduleJobs("./scheduling.txt");
         //scheJobs.printFile();
         //System.out.println(scheJobs.greedyWithSub());
         System.out.println(scheJobs.greedyWtRatio());
