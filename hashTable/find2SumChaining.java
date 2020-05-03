@@ -57,10 +57,10 @@ public class find2SumChaining {
 
 
     public static void main(String[] args) throws IOException {
-        //find2SumChaining f2sFull = new find2SumChaining("/Users/MyStudy/DataStructure/proj1/DS1/src/hashTable/2sum.txt",524309);
+        //find2SumChaining f2sFull = new find2SumChaining("./2sum.txt",524309);
         //System.out.println(f2sFull.totalSum(-10000, 10000));
         //f2sFull.printHT();
-        find2SumChaining f2sTest = new find2SumChaining("/Users/MyStudy/DataStructure/proj1/DS1/src/hashTable/2sum-test.txt", 97);
+        find2SumChaining f2sTest = new find2SumChaining("./2sum-test.txt", 97);
         f2sTest.printHT();
         //System.out.println(f2sTest.totalSum(-50, 50));
     }
