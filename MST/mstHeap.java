@@ -147,7 +147,7 @@ public class mstHeap {
 
     public static void main(String[] args) throws IOException {
         mstHeap MST= new mstHeap();
-        MST.loadGraph("/Users/MyStudy/DataStructure/proj1/DS1/src/MST/MST.txt");
+        MST.loadGraph("./MST.txt");
         MST.primMST();
     }
 
